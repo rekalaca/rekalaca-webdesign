@@ -2,7 +2,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #555555;
   margin: 0;
   overflow-x: hidden;
@@ -40,7 +40,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Alex Brush", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -408,7 +408,7 @@ h6 {
 #hero .btn-get-started {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
@@ -473,7 +473,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# rolam Us
+# rolam 
 --------------------------------------------------------------*/
 .rolam .image {
   padding: 20px;
@@ -484,20 +484,25 @@ section {
 .rolamhatter {
   background: url("../img/hatter/px_by_Gre3g.webp");
   color: white;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Montserrat', sans-serif;  
 }
 
 #rolam h2 {
   color: #e6c068;
-  font-family: 'Lexend Tera', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #rolam h3 {
-  font-family: 'Khand', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
 }
 
 #rolam p {
   color: white;
+  font-size: 14px;
+  text-align: justify;
+  margin-top: 10px;
 }
 
 .kep {
@@ -505,7 +510,6 @@ section {
 }
 
 .rolam .content h3 {
-  font-weight: 600;
   font-size: 26px;
 }
 
@@ -530,11 +534,7 @@ section {
   margin-bottom: 0;
 }
 
-.szoveg {
-  font-size: 14px;
-  text-align: justify;
-  margin: 10px;
-}
+
 
 .cross {
   position: relative;
@@ -569,12 +569,12 @@ section {
 }
 
 #services h2 {
-  font-family: 'Khand', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #services p {
   color: rgb(41, 37, 53);
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin-left: 65px;
 
 }
@@ -585,7 +585,7 @@ section {
 
 .services .icon-box h4 {
   font-size: 20px;
-  font-family: 'Khand', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   margin: 5px 0 10px 60px;
 }
@@ -598,7 +598,7 @@ section {
 
 .services .icon-box {
   font-size: 15px;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #272626;
 }
 
@@ -608,6 +608,9 @@ section {
   background-size: cover;
   min-height: 400px;
 }
+.regiar{
+  font-size: 30px;
+}
 
 
 /*--------------------------------------------------------------
@@ -616,13 +619,13 @@ section {
 #portfolio {
   background: url("../img/hatter/px_by_Gre3g.webp");
   color: white;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #portfolio h2,
 h3 {
   color: #e6c068;
-  font-family: 'Lexend Tera', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .portfolio .portfolio-item {
@@ -730,12 +733,14 @@ h3 {
   font-size: 20px;
   color: #fff;
   font-weight: 600;
+  font-family: 'Montserrat', Courier, monospace;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
   color: #ffffff;
-  font-size: 14px;
+  font-size: 12px;
   text-transform: uppercase;
+  font-family: 'Montserrat';
   padding: 0;
   margin: 0;
 }
@@ -748,7 +753,7 @@ h3 {
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
   margin: 0 2px;
-  font-size: 28px;
+  font-size: 20px;
   display: inline-block;
   transition: 0.3s;
 }
@@ -763,6 +768,7 @@ h3 {
   right: 0;
   bottom: 0;
   opacity: 1;
+  background: url("../img/footerbg.jpg");
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-info {
@@ -852,16 +858,17 @@ h3 {
 }
 
 #pricing h2 {
-  font-family: 'Khand', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .szolgszoveg {
-  max-width: 500px;
+  max-width: 600px;
 }
 
 #pricing p {
   color: rgb(41, 37, 53);
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
 }
 
 .pricing .box {
@@ -878,10 +885,10 @@ h3 {
   font-weight: 400;
   padding: 15px;
   margin-top: 15px;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 600;
   color: black;
-  font-family: 'Lexend Tera', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   background-color: #e6c068;
   border-radius: 30px;
 }
@@ -890,7 +897,7 @@ h3 {
   font-size: 42px;
   color: #151515;
   font-weight: 700;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   margin-bottom: 20px;
 }
 
@@ -942,8 +949,8 @@ h3 {
   border: 2px solid #e6c068;
   color: black;
   font-size: 14px;
-  font-weight: 400;
-  font-family: "Montserrat", sans-serif;
+  font-weight: 400;  
+  font-family: 'Montserrat',sans-serif;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1010,12 +1017,12 @@ h3 {
 #faq {
   background: url("../img/hatter/px_by_Gre3g.webp");
   color: white;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #faq h2 {
   color: #e6c068;
-  font-family: 'Lexend Tera', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .faq .faq-list {
@@ -1032,7 +1039,6 @@ h3 {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: #e6c068;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
@@ -1086,16 +1092,16 @@ h3 {
 
 #contact h2,
 h4 {
-  font-family: 'Khand', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #contact p {
   color: rgb(41, 37, 53);
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .stil {
-  font-family: 'Khand', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .contact .info {
@@ -1122,9 +1128,9 @@ h4 {
   transition: all 0.3s ease-in-out;
 }
 
-.contact .info h4 {
+#contact h4 {
   padding: 0 0 0 60px;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 600;
   margin-bottom: 5px;
   color: #151515;
