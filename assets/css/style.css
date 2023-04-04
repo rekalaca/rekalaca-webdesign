@@ -1025,6 +1025,9 @@ h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
+#faq a {
+  color: #e6c068;
+
 .faq .faq-list {
   padding: 0;
   list-style: none;
