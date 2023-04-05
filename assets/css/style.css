@@ -385,13 +385,9 @@ h6 {
   padding: 0 0px;
 }
 
-#hero .hero-logo {
-  max-width: 300px;
-  margin: 0 auto 0 auto;
-}
+
 
 #hero h1 {
-  margin: 0px 0 20px 0;
   font-size: 40px;
   font-weight: 500;
   line-height: 56px;
