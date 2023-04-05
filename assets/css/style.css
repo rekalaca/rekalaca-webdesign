@@ -386,7 +386,8 @@ h6 {
 }
 
 #hero .hero-logo {
-  max-width: 600px;
+  max-width: 300px;
+  margin: 0 auto 0 auto;
 }
 
 #hero h1 {
