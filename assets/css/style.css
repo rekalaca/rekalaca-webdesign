@@ -573,7 +573,21 @@ section {
 }
 
 #services p {
-  color: rgb(41, 37, 53);
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  font-weight: bold;
+}
+
+#services h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+#services p {
+  color: rgb(26, 24, 31);
   font-family: 'Montserrat', sans-serif;
   margin-left: 65px;
 
@@ -863,6 +877,8 @@ h3 {
 
 .szolgszoveg {
   max-width: 600px;
+  color: #000;
+  font-weight: bold;
 }
 
 #pricing p {
@@ -924,6 +940,8 @@ h3 {
 
 .pricing .box ul li {
   padding-bottom: 16px;
+  color: #000;
+  font-weight: bold;
 }
 
 .pricing .box ul i {
