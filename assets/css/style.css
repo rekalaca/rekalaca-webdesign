@@ -377,7 +377,6 @@ h6 {
 
 #hero .hero-container {
   position: absolute;
-  bottom: 0;
   top: 0;
   left: 0;
   right: 0;
@@ -386,7 +385,6 @@ h6 {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  padding: 0 0px;
 }
 
 
