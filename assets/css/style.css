@@ -27,10 +27,12 @@ a:hover {
 a:active {
   text-decoration: none;
 }
-.kozep{
+
+.kozep {
   text-align: center;
 }
-.kozepre{
+
+.kozepre {
   margin: 0 auto 0 auto;
 }
 
@@ -64,9 +66,9 @@ h6 {
   font-size: 28px;
   color: #e6c068;
   line-height: 0;
-}a
+}
 
-.back-to-top:hover {
+a .back-to-top:hover {
   background: #97d193;
   color: #fff;
 }
@@ -438,7 +440,8 @@ h6 {
   #hero h2 {
     line-height: 22px;
   }
-  #hero img{
+
+  #hero img {
     max-width: 400px;
   }
 }
@@ -476,20 +479,19 @@ section {
 /*--------------------------------------------------------------
 # rolam 
 --------------------------------------------------------------*/
-.rolam .image {
-  padding: 20px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-
-}
 
 .rolamhatter {
   background: url("../img/hatter/px_by_Gre3g.webp");
   color: white;
-  font-family: 'Montserrat', sans-serif;  
+  font-family: 'Montserrat', sans-serif;
 }
 
-.rolamszoveg{
-  max-width: 550px;
+.rolamszoveg {
+  max-width: 100%;
+}
+
+.rolambekezd{
+  margin-top: 15px;
 }
 
 #rolam h2 {
@@ -507,12 +509,15 @@ section {
   color: white;
   font-size: 14px;
   text-align: justify;
-  margin-top: 10px;
 }
 
 .kep {
   border-radius: 30px;
-  float: right;
+  border: 2px solid #fff;
+  box-shadow: 5px 5px 5px #ccc;
+  -moz-box-shadow: 5px 5px 5px #ccc;
+  -webkit-box-shadow: 5px 5px 5px #ccc;
+  -khtml-box-shadow: 5px 5px 5px #ccc;
 }
 
 .rolam .content h3 {
@@ -549,18 +554,22 @@ section {
   font-weight: bold;
   margin-top: 20px;
 }
-.cross::before, .cross::after {
+
+.cross::before,
+.cross::after {
   content: '';
   width: 100%;
   position: absolute;
   right: 0;
   top: 50%;
 }
+
 .cross::before {
   border-bottom: 4px solid red;
   -webkit-transform: skewY(-10deg);
   transform: skewY(-10deg);
 }
+
 .cross::after {
   border-bottom: 4px solid red;
   -webkit-transform: skewY(10deg);
@@ -629,8 +638,24 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.regiar{
+
+.regiar {
   font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  #services h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #services h2 {
+    line-height: 22px;
+  }
+
+  #services img {
+    max-width: 400px;
+  }
 }
 
 
@@ -979,8 +1004,8 @@ h3 {
   border: 2px solid #e6c068;
   color: black;
   font-size: 14px;
-  font-weight: 400;  
-  font-family: 'Montserrat',sans-serif;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1057,7 +1082,7 @@ h3 {
 
 #faq a {
   color: #e6c068;
-  }
+}
 
 .faq .faq-list {
   padding: 0;
@@ -1334,7 +1359,7 @@ h4 {
   margin: 0% 1%;
 }
 
-.footszoveg{
+.footszoveg {
   color: rgb(220, 213, 213);
   font-size: 14px;
   font-family: 'Montserrat', sans-serif;
@@ -1357,12 +1382,14 @@ h4 {
   }
 
 }
+
 table {
   border-collapse: collapse;
   width: 40%;
   margin: 0 auto 0 auto;
   font-size: 30px;
 }
+
 td {
   border: 1px solid black;
   padding: 6px;
@@ -1451,10 +1478,12 @@ td {
 .balra {
   text-align: left;
 }
-.adatlink{
+
+.adatlink {
   font-size: 12px;
 }
-.adatcsik{
+
+.adatcsik {
   max-width: 800px;
   margin: 0 auto 0 auto;
   margin-top: 30px;
@@ -1465,10 +1494,10 @@ td {
   width: 100%;
   background: url("../img/hero-bg.png");
   position: relative;
-  text-align:justify
+  text-align: justify
 }
 
-#adathatter a:link{
+#adathatter a:link {
   color: orange;
 }
 
@@ -1617,14 +1646,13 @@ td {
   transition: box-shadow 0.2s ease-in;
 }
 
-.adatved{
+.adatved {
   margin-top: 3px;
 }
 
-.upbutton{
+.upbutton {
   position: fixed;
   bottom: 55px;
   right: 20px;
   z-index: 9999;
 }
-
