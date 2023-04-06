@@ -95,6 +95,8 @@ a .back-to-top:hover {
   font-weight: bold;
 }
 
+
+
 #header {
   height: 90px;
   transition: all 0.5s;
@@ -509,6 +511,11 @@ section {
   color: white;
   font-size: 14px;
   text-align: justify;
+}
+
+.nyelvek{
+  font-size: 14px;
+  text-align: center;
 }
 
 .kep {
