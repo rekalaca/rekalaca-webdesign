@@ -1663,3 +1663,128 @@ td {
   right: 20px;
   z-index: 9999;
 }
+
+/*--------------------------------------------------------------
+# NEW Nav
+--------------------------------------------------------------*/
+#header a:hover {
+  background-color: orange;
+  color: white;
+  border-radius: 30px;
+  text-align: center;
+  padding-right: 25px;
+  margin-right: 25px;
+  margin-left: 25px;
+  font-size: 18px;
+}
+
+/*--------------------------------------------------------------
+# ONE PAGE
+--------------------------------------------------------------*/
+#onepage{
+  background: url("../img/hero-bg.png");
+}
+#onepage h2{
+  font-family: 'Montserrat';
+  font-weight:600;
+  color: orange;
+}
+
+
+#onepagep{
+  background: url("../img/hatter/px_by_Gre3g.webp");
+  font-family: 'Montserrat';
+}
+
+#onepagep p{
+  color: #ccc;
+  padding: 10px;
+}
+
+#onepagep .button{
+  color: #ffffff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+/*--------------------------------------------------------------
+# MULTI
+--------------------------------------------------------------*/
+#multi {
+  background: url("../img/hero-bg.png");
+}
+#multi h2{
+  font-family: 'Montserrat';
+  font-weight:600;
+  color: orange;
+}
+
+#multip{
+  background: url("../img/hatter/px_by_Gre3g.webp");
+  font-family: 'Montserrat';
+}
+
+#multip p{
+  color: #ccc;
+  padding: 10px;
+}
+
+#multip .button{
+  color: #ffffff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+/*--------------------------------------------------------------
+# COMPLEX
+--------------------------------------------------------------*/
+
+#complex {
+  background: url("../img/hero-bg.png");
+}
+#complex h2{
+  font-family: 'Montserrat';
+  font-weight:600;
+  color: orange;
+}
+
+#complexp{
+  background: url("../img/hatter/px_by_Gre3g.webp");
+  font-family: 'Montserrat';
+}
+
+#complexp p{
+  color: #ccc;
+  padding: 10px;
+}
+
+#complexp .button{
+  color: #ffffff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.complexcard {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+  border-radius: 20px;
+  transition: all .3s;
+ }
+ 
+ .complexcard2 {
+  width: 100%;
+  height: 100%;
+  background: url("../img/hatter/px_by_Gre3g.webp");
+  border-radius: 20px;
+  transition: all .2s;
+ }
+ 
+ .complexcard2:hover {
+  transform: scale(0.98);
+  border-radius: 20px;
+ }
+ 
+ .complexcard:hover {
+  box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+ }
