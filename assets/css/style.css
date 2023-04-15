@@ -173,6 +173,7 @@ a .back-to-top:hover {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
+  margin: 10px;
   font-size: 15px;
   color: #151515;
   text-transform: uppercase;
@@ -1597,7 +1598,6 @@ td {
   color: orange;
 }
 
-
 #onepagep{
   background: url("../img/hatter/px_by_Gre3g.webp");
   font-family: 'Montserrat';
@@ -1605,13 +1605,18 @@ td {
 
 #onepagep p{
   color: #ccc;
-  padding: 10px;
+  padding: 20px;
 }
 
 #onepagep .button{
   color: #ffffff;
   font-size: 14px;
   text-transform: uppercase;
+}
+
+.onepictures{
+  border-radius: 25px;
+  padding: 20px;
 }
 
 /*--------------------------------------------------------------

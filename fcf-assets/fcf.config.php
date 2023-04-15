@@ -71,7 +71,7 @@ define('EMAIL_TO_CC_NAME', '');
 define('EMAIL_TO_BCC', '');
 define('EMAIL_TO_BCC_NAME', '');
 
-define('EMAIL_FROM', 'rekalaca@gmail.com');
+define('EMAIL_FROM', 'rekalaca.webdesign@gmail.com');
 define('EMAIL_FROM_NAME', '');
 
 define('EMAIL_REPLY_TO', 'FIELD:Email');
