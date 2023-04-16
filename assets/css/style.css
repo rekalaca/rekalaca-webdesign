@@ -1154,7 +1154,11 @@ h3 {
 # Contact
 --------------------------------------------------------------*/
 #contact {
-  background: url("../img/bg-registration-form-7.jpg");
+  background: url("../img/contact-background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
 }
 
 #contact h2,
