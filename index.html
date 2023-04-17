@@ -491,48 +491,87 @@
 
         <div class="row">
 
-          <div class="col-lg-6 mt-5 mt-lg-0 stil kozepre">
+          <div class="col-lg-8 mt-5 mt-lg-0 stil kozepre">
 
-            <div style="max-width:500px;padding:30px">
-              <div id="fcf-form">
-                  <form class="fcf-form-class" id="freeversion" method="post" action="fcf-assets/fcf.process.php">
-      
-                      <div class="field">
-                          <label for="Name" class="label has-text-weight-normal">Your name</label>
-                          <div class="control">
-                              <input type="text" name="Name" id="Name" class="input is-full-width" maxlength="100"
-                                  data-validate-field="Name">
+            <div class="wrapper">
+              <div class="row no-gutters" id="formb">
+                <div class="col-md-6 d-flex align-items-stretch">
+                  <div class="contact-wrap w-100 p-md-5 p-4 py-5">
+                    <h3 class="mb-4">Árajánlat kérés</h3>
+                    <div id="form-message-warning" class="mb-4"></div>
+                    
+                    <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Név/Cégnév">
                           </div>
-                      </div>
-                      <div class="field">
-                          <label for="Email" class="label has-text-weight-normal">Your email address</label>
-                          <div class="control">
-                              <input type="email" name="Email" id="Email" class="input is-full-width" maxlength="100"
-                                  data-validate-field="Email">
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
                           </div>
-                      </div>
-                      <div class="field">
-                          <label for="Message" class="label has-text-weight-normal">Your message</label>
-                          <div class="control">
-                              <textarea name="Message" id="Message" class="textarea" maxlength="3000" rows="5" 
-                              data-validate-field="Message"></textarea>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Téma">
                           </div>
-                      </div>
-                      <div id="fcf-status" class="fcf-status"></div>
-                      <div class="field">
-                          <div class="buttons">
-                              <button id="fcf-button" type="submit" class="button is-link is-medium">Send Message</button>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <textarea name="message" class="form-control" id="message" cols="30" rows="6"
+                              placeholder="Üzenet szövege..."></textarea>
                           </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input type="submit" value="Üzenet elküldése" class="btn btn-primary">
+                            <div class="submitting"></div>
+                          </div>
+                        </div>
                       </div>
-                  </form>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-stretch">
+                  <div class="info-wrap w-100 p-md-5 p-4 py-5 img">
+                    <h3>Kapcsolatfelvételi lehetőségek</h3>
+                    <div class="dbox w-100 d-flex align-items-start">
+                      <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="fa fa-map-marker"></span>
+                      </div>
+                      <div class="text pl-3">
+                        <p><span>Cím:</span> 4400 Nyíregyháza, Kiss Ernő utca 44-46.</p>
+                      </div>
+                    </div>
+                    <div class="dbox w-100 d-flex align-items-center">
+                      <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="fa fa-phone"></span>
+                      </div>
+                      <div class="text pl-3">
+                        <p><span>Telefon:</span> <a href="+36304442569">+ 36 30 444-25-69</a></p>
+                      </div>
+                    </div>
+                    <div class="dbox w-100 d-flex align-items-center">
+                      <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="fa fa-paper-plane"></span>
+                      </div>
+                      <div class="text pl-3">
+                        <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@rekalaca-webdesign.hu</a></p>
+                      </div>
+                    </div>
+                    <div class="dbox w-100 d-flex align-items-center">
+                      <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="fa fa-globe"></span>
+                      </div>
+                      <div class="text pl-3">
+                        <p><span>Web:</span> <a href="https://www.rekalaca-webdeign.hu/">rekalaca-webdesign.hu</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div id="fcf-thank-you" style="display:none">
-                  <!-- Thank you message goes below -->
-                  <strong>Thank you</strong>
-                  <p>Thanks for contacting us, we will get back in touch with you soon.</p>
-                  <!-- Thank you message goes above -->
-              </div>
-          </div>
+            </div>
 
           </div>
 
@@ -606,7 +645,7 @@
 
   <!-- Contact form -->
   <script src="fcf-assets/js/fcf.just-validate.min.js"></script>
-    <script src="fcf-assets/js/fcf.form.js"></script>
+  <script src="fcf-assets/js/fcf.form.js"></script>
 
 
 

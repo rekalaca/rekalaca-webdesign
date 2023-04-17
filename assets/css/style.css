@@ -1161,13 +1161,25 @@ h3 {
   background-position: center center;
 }
 
+#formb{
+  background: url("../img/hatter/formback.jpg");
+  border-radius: 25px;
+}
+
 #contact h2,
 h4 {
   font-family: 'Montserrat', sans-serif;
 }
 
-#contact p {
-  color: rgb(41, 37, 53);
+#contact h3,
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+
+#contact p, a {
+  color:#fff;
   font-family: 'Montserrat', sans-serif;
 }
 
