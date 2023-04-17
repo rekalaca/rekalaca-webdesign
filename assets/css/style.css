@@ -1490,7 +1490,7 @@ td {
 }
 
 #adathatter a:link {
-  color: orange;
+  color: #e6c068;
 }
 
 #adathatter .adathatter-container {
@@ -1653,7 +1653,7 @@ td {
 # NEW Nav
 --------------------------------------------------------------*/
 #header a:hover {
-  background-color: orange;
+  background-color: #e6c068;
   color: white;
   border-radius: 30px;
   text-align: center;
@@ -1672,7 +1672,7 @@ td {
 #onepage h2{
   font-family: 'Montserrat';
   font-weight:600;
-  color: orange;
+  color: #e6c068;
 }
 
 #onepagep{
@@ -1705,7 +1705,7 @@ td {
 #multi h2{
   font-family: 'Montserrat';
   font-weight:600;
-  color: orange;
+  color: #e6c068;
 }
 
 #multip{
@@ -1734,7 +1734,7 @@ td {
 #complex h2{
   font-family: 'Montserrat';
   font-weight:600;
-  color: orange;
+  color: #e6c068;
 }
 
 #complexp{
