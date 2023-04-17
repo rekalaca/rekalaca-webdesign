@@ -1161,10 +1161,6 @@ h3 {
   background-position: center center;
 }
 
-#formb{
-  background: url("../img/hatter/formback.jpg");
-  border-radius: 25px;
-}
 
 #contact h2,
 h4 {
@@ -1185,6 +1181,7 @@ h4 {
 
 .stil {
   font-family: 'Montserrat', sans-serif;
+  margin-top: 30px;
 }
 
 .contact .info {
@@ -1226,6 +1223,8 @@ h4 {
 }
 
 
+
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1245,7 +1244,69 @@ h4 {
     transform: rotate(360deg);
   }
 }
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
 
+
+
+input,
+textarea,
+label {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  color: #fff;
+}
+
+input,
+textarea {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 20px;
+}
+
+input[type=submit] {
+  background-color:#e6c068;
+  padding: 10px 0;
+  color: #000;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: none;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: all .3s ease;
+  border-radius: 20px;
+}
+
+input[type=submit]:hover {
+  background: #c6972a;
+  color: #000;
+}
+
+input,
+textarea {
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+}
+
+input:focus,
+textarea:focus {
+  outline: 1px solid #fff;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #fff;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/

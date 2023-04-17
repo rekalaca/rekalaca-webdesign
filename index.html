@@ -49,6 +49,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  
 
 
 </head>
@@ -484,87 +485,58 @@
       <div class="container">
 
         <div class="section-title">
-          <h2 style="color: orange;">Kapcsolat</h2>
-          <h4 style="color: orange;">További kérdés, vagy kérdések esetében forduljon hozzám bizalommal!</h4>
+          <h2 style="color: #e6c068;">Kapcsolat</h2>
+          <h4 style="color: #e6c068;">További kérdés, vagy kérdések esetében forduljon hozzám bizalommal!</h4>
         </div>
 
 
         <div class="row">
 
-          <div class="col-lg-8 mt-5 mt-lg-0 stil kozepre">
+          <div class="col-lg-10 mt-5 mt-lg-0 stil kozepre">
 
             <div class="wrapper">
               <div class="row no-gutters" id="formb">
                 <div class="col-md-6 d-flex align-items-stretch">
                   <div class="contact-wrap w-100 p-md-5 p-4 py-5">
-                    <h3 class="mb-4">Árajánlat kérés</h3>
                     <div id="form-message-warning" class="mb-4"></div>
-                    
-                    <form method="POST" id="contactForm" name="contactForm" class="contactForm">
-                      <div class="row">
-                        <div class="col-md-12">
-                          <div class="form-group">
-                            <input type="text" class="form-control" name="name" id="name" placeholder="Név/Cégnév">
-                          </div>
-                        </div>
-                        <div class="col-md-12">
-                          <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
-                          </div>
-                        </div>
-                        <div class="col-md-12">
-                          <div class="form-group">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Téma">
-                          </div>
-                        </div>
-                        <div class="col-md-12">
-                          <div class="form-group">
-                            <textarea name="message" class="form-control" id="message" cols="30" rows="6"
-                              placeholder="Üzenet szövege..."></textarea>
-                          </div>
-                        </div>
-                        <div class="col-md-12">
-                          <div class="form-group">
-                            <input type="submit" value="Üzenet elküldése" class="btn btn-primary">
-                            <div class="submitting"></div>
-                          </div>
-                        </div>
-                      </div>
+
+                    <form action="mail.php" method="POST">
+                      <label for="name">Név/Cégnév:</label>
+                      <input type="text" name="name" id="name">
+                      <label for="email">Email címe:</label>
+                      <input type="email" name="email" id="email">
+                      <label for="subject">Tárgy:</label>
+                      <input type="text" name="subject" id="subject">
+                      <label for="message">Üzenet szövege...</label>
+                      <textarea name="message" cols="30" rows="3"></textarea>
+                      <input type="submit" value="Elküldöm!">
                     </form>
                   </div>
                 </div>
                 <div class="col-md-6 d-flex align-items-stretch">
                   <div class="info-wrap w-100 p-md-5 p-4 py-5 img">
                     <h3>Kapcsolatfelvételi lehetőségek</h3>
-                    <div class="dbox w-100 d-flex align-items-start">
-                      <div class="icon d-flex align-items-center justify-content-center">
-                        <span class="fa fa-map-marker"></span>
-                      </div>
+                    <div class="dbox w-100 d-flex align-items-start stil">
                       <div class="text pl-3">
+                        <span class="fa fa-map-marker" style="color: #e6c068; margin-right: 10px;"></span>
                         <p><span>Cím:</span> 4400 Nyíregyháza, Kiss Ernő utca 44-46.</p>
                       </div>
                     </div>
-                    <div class="dbox w-100 d-flex align-items-center">
-                      <div class="icon d-flex align-items-center justify-content-center">
-                        <span class="fa fa-phone"></span>
-                      </div>
+                    <div class="dbox w-100 d-flex align-items-center stil">
                       <div class="text pl-3">
+                        <span class="fa fa-phone" style="color: #e6c068; margin-right: 10px;"></span>
                         <p><span>Telefon:</span> <a href="+36304442569">+ 36 30 444-25-69</a></p>
                       </div>
                     </div>
-                    <div class="dbox w-100 d-flex align-items-center">
-                      <div class="icon d-flex align-items-center justify-content-center">
-                        <span class="fa fa-paper-plane"></span>
-                      </div>
+                    <div class="dbox w-100 d-flex align-items-center stil">
                       <div class="text pl-3">
+                        <span class="fa fa-paper-plane" style="color: #e6c068; margin-right: 10px;"></span>
                         <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@rekalaca-webdesign.hu</a></p>
                       </div>
                     </div>
-                    <div class="dbox w-100 d-flex align-items-center">
-                      <div class="icon d-flex align-items-center justify-content-center">
-                        <span class="fa fa-globe"></span>
-                      </div>
+                    <div class="dbox w-100 d-flex align-items-center stil">                     
                       <div class="text pl-3">
+                        <span class="fa fa-globe" style="color: #e6c068; margin-right: 10px;"></span>
                         <p><span>Web:</span> <a href="https://www.rekalaca-webdeign.hu/">rekalaca-webdesign.hu</a></p>
                       </div>
                     </div>
