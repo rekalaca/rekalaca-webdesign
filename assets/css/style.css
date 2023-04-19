@@ -106,7 +106,7 @@ a .back-to-top:hover {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: url("../img/hatter/leather_1.png");
+  background: url("../img/hatter/leather_1.webp");
   box-shadow: 0 4px 10px -3px rgba(191, 191, 191, 0.5);
   border: solid 3px #e6c068;
 }
@@ -918,7 +918,7 @@ h3 {
 # Árak
 --------------------------------------------------------------*/
 #pricing {
-  background: url("../img/hatter/leather_1.png");
+  background: url("../img/hatter/leather_1.webp");
 }
 
 #pricing h2 {
@@ -1160,7 +1160,7 @@ h3 {
 # Contact
 --------------------------------------------------------------*/
 #contact {
-  background: url("../img/hatter/contact-background.jpg");
+  background: url("../img/hatter/contact-background.webp");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
