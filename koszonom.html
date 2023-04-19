@@ -107,34 +107,9 @@
 
 
     <!-- ======= Footer Section ======= -->
-    <footer>
-      <div class="footer adatved">
 
-        <table data-aos="fade-up" data-aos-delay="100">
-          <tr>
-            <td><a href="https://www.facebook.com/profile.php?id=100091614870499" target="_blank"><i
-                  class="bi bi-facebook"></i></a></td>
-            <td><a href="https://m.me/108388625549521" target="_blank"><i class="bi bi-messenger"></i></a>
-            </td>
-            <td><a href="https://wa.me/36304442569" target="_blank"><i class="bi bi-whatsapp" t></i></a>
-            </td>
-          </tr>
-        </table>
-
-        <div class="row">
-          <ul>
-            <li><a href="#" id="open_preferences_center">Cookie beállítások</a></li>
-            <li><a href="https://rekalaca.github.io/rekalaca-webdesign/impresszum">Impresszum</a></li>
-            <li><a href="https://rekalaca.github.io/rekalaca-webdesign/adatvedelem" target="_blank">Adatkezelési
-                tájékoztató</a>
-            </li>
-          </ul>
-        </div>
-        <div class="kozep footszoveg">
-          Copyright © 2023 rekalaca-webdesign - All rights reserved || Designed By: rekalaca
-        </div>
-      </div>
-    </footer>
+    <div id="includeHtml"></div>
+    
     <!-- ======= End Footer Section ======= -->
 
 
@@ -153,7 +128,6 @@
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Footer icons-->
@@ -162,6 +136,14 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- Footer JS File -->
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+   <script>
+      $(function() {
+         $("#includeHtml").load("footer.html");
+      });
+   </script>
 
 
 </body>

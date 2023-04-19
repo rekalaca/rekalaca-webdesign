@@ -49,8 +49,6 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  
-
 
 </head>
 
@@ -92,7 +90,8 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container">
-      <a href="index.html" class="img-fluid" data-aos="zoom-in"><img src="assets/img/newlogo/fologo.png" alt="" class="img-fluid" style="max-width: 100%;"></a>
+      <a href="index.html" class="img-fluid" data-aos="zoom-in"><img src="assets/img/newlogo/fologo.png" alt=""
+          class="img-fluid" style="max-width: 100%;"></a>
       <h1 data-aos="zoom-in">Mobilbarát weboldalak tervezése és kivitelezése</h1>
       <a data-aos="fade-up" href="#rolam" class="btn-get-started scrollto">Bővebben</a>
     </div>
@@ -100,27 +99,8 @@
   <!-- End Hero -->
 
   <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <div class="logo">
-        <img src="assets/img/newlogo/webdesign_csakszoveg.png" style="margin-left: -50px;" alt="" class="img-fluid">
-      </div>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active " href="index.html#hero">Főoldal</a></li>
-          <li><a class="nav-link scrollto " href="index.html#rolam">Rólam</a></li>
-          <li><a class="nav-link scrollto " href="index.html#services">Szolgáltatások</a></li>
-          <li><a class="nav-link scrollto  " href="index.html#portfolio">Referencia</a></li>
-          <li><a class="nav-link scrollto " href="index.html#pricing">Árak</a></li>
-          <li><a class="nav-link scrollto " href="index.html#contact">Kapcsolat</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
+  <div id="includeHtml1"></div>
+  <!-- End Header -->
 
 
   <main id="main">
@@ -137,7 +117,7 @@
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
             <div>
-              <img class="kep" src="assets/img/rolam.jpg" style="max-width: 100%;">
+              <img class="kep" src="assets/img/newlogo/rolam.jpg" style="max-width: 100%;">
             </div>
 
           </div>
@@ -207,8 +187,12 @@
             </div>
           </div>
           <div class="image col-lg-6 order-1 order-lg-2">
-            <img src="assets/img/video/logomozgo.gif" alt="rekalaca-webdesign-logo" style="max-width:100%;height:auto;">
-
+            <img src="assets/img/video/rekalaca.gif" alt="rekalaca-webdesign-logo" style="max-width:100%;height:auto;">
+            <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-brush iconbekezd" style="font-size:1.9rem"></i>
+              <h4>Arculat tervezés</h4>
+              <p>Logó tervezése, készítése, arculati elemek megtervezése.</p>
+            </div>
           </div>
         </div>
 
@@ -261,7 +245,6 @@
               </div>
             </div>
           </div>
-
 
           <div class="col-lg-6 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
@@ -533,7 +516,7 @@
                         <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@rekalaca-webdesign.hu</a></p>
                       </div>
                     </div>
-                    <div class="dbox w-100 d-flex align-items-center stil">                     
+                    <div class="dbox w-100 d-flex align-items-center stil">
                       <div class="text pl-3">
                         <span class="fa fa-globe fa-2x" style="color: #e6c068; margin-right: 10px;"></span>
                         <p><span>Web:</span> <a href="https://www.rekalaca-webdeign.hu/">rekalaca-webdesign.hu</a></p>
@@ -556,35 +539,12 @@
     </section><!-- End Kapcsolat Section -->
 
     <!-- ======= Footer Section ======= -->
-    <footer>
-      <div class="footer adatved">
 
-        <table data-aos="fade-up" data-aos-delay="100">
-          <tr>
-            <td><a href="https://www.facebook.com/profile.php?id=100091614870499" target="_blank"><i
-                  class="bi bi-facebook"></i></a></td>
-            <td><a href="https://m.me/108388625549521" target="_blank"><i class="bi bi-messenger"></i></a>
-            </td>
-            <td><a href="https://wa.me/36304442569" target="_blank"><i class="bi bi-whatsapp" t></i></a>
-            </td>
-          </tr>
-        </table>
+    <div id="includeHtml"></div>
 
-        <div class="row">
-          <ul>
-            <li><a href="#" id="open_preferences_center">Cookie beállítások</a></li>
-            <li><a href="impresszum.html">Impresszum</a></li>
-            <li><a href="adatvedelem.html" target="_blank">Adatkezelési
-                tájékoztató</a>
-            </li>
-          </ul>
-        </div>
-        <div class="kozep footszoveg">
-          Copyright © 2023 rekalaca-webdesign - All rights reserved || Designed By: rekalaca
-        </div>
-      </div>
-    </footer>
     <!-- ======= End Footer Section ======= -->
+
+
 
 
   </main><!-- End #main -->
@@ -613,6 +573,20 @@
 
   <!-- Cookie Button JS File -->
   <script src="assets/js/cookie_button.js"></script>
+
+  <!-- Footer JS File -->
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script>
+    $(function () {
+      $("#includeHtml").load("footer.html");
+    });
+  </script>
+  <script>
+    $(function () {
+      $("#includeHtml1").load("header.html");
+    });
+  </script>
+
 
 </body>
 

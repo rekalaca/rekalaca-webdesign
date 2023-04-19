@@ -76,29 +76,9 @@
 
     <!-- End Cookie -->
 
-   <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
-
-        <div class="logo">
-            <img src="assets/img/newlogo/webdesign_csakszoveg.png" style="margin-left: -50px;" alt=""
-                class="img-fluid">
-          </div>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active " href="index.html#hero">Főoldal</a></li>
-          <li><a class="nav-link scrollto " href="index.html#rolam">Rólam</a></li>
-          <li><a class="nav-link scrollto " href="index.html#services">Szolgáltatások</a></li>
-          <li><a class="nav-link scrollto  " href="index.html#portfolio">Referencia</a></li>
-          <li><a class="nav-link scrollto " href="index.html#pricing">Árak</a></li>
-          <li><a class="nav-link scrollto " href="index.html#contact">Kapcsolat</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
+    <!-- ======= Header ======= -->
+    <div id="includeHtml1"></div>
+    <!-- End Header -->
 
     <main id="main">
 
@@ -114,11 +94,13 @@
 
                     <p class="adatvedelem" style="text-align: center; font-weight: 600; font-size: 14px;">
                         <u>A szolgáltató neve:</u><br>Rékási László e.v.<br><br>
-                        <u>A szolgáltató székhelye:</u><br>MAGYARORSZÁG, 4400 NYÍREGYHÁZA<br> KISS ERNŐ UTCA 44-46. 3/20<br><br>
+                        <u>A szolgáltató székhelye:</u><br>MAGYARORSZÁG, 4400 NYÍREGYHÁZA<br> KISS ERNŐ UTCA 44-46.
+                        3/20<br><br>
                         <u>A szolgáltató elérhetőségei:</u>
                     </p>
                     <div style="display: flex; justify-content: center; margin-top: 10px;">
-                        <div style="margin-right: 10px;"><a href="mailto:info@rekalaca-webdesign.hu">info@rekalaca-webdesign.hu</a></div> |
+                        <div style="margin-right: 10px;"><a
+                                href="mailto:info@rekalaca-webdesign.hu">info@rekalaca-webdesign.hu</a></div> |
                         <div style="margin-left: 10px;"><a href="tel:+36304442569">+36 30 444-25-69</a></div>
                     </div>
                     <p class="adatvedelem" style="text-align: center; font-weight: 600; font-size: 14px;">
@@ -146,34 +128,9 @@
         </section><!-- End Adatvedelem Section -->
 
         <!-- ======= Footer Section ======= -->
-        <footer>
-            <div class="footer adatved">
 
-                <table data-aos="fade-up" data-aos-delay="100">
-                    <tr>
-                        <td><a href="https://www.facebook.com/profile.php?id=100091614870499" target="_blank"><i
-                                    class="bi bi-facebook"></i></a></td>
-                        <td><a href="https://m.me/108388625549521" target="_blank"><i class="bi bi-messenger"></i></a>
-                        </td>
-                        <td><a href="https://wa.me/36304442569" target="_blank"><i class="bi bi-whatsapp" t></i></a>
-                        </td>
-                    </tr>
-                </table>
+        <div id="includeHtml"></div>
 
-                <div class="row">
-                    <ul>
-                        <li><a href="#" id="open_preferences_center">Cookie beállítások</a></li>
-                        <li><a href="https://rekalaca.github.io/rekalaca-webdesign/impresszum">Impresszum</a></li>
-                        <li><a href="https://rekalaca.github.io/rekalaca-webdesign/adatvedelem"
-                                target="_blank">Adatkezelési tájékoztató</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="kozep footszoveg">
-                    Copyright © 2023 rekalaca-webdesign - All rights reserved || Designed By: rekalaca
-                </div>
-            </div>
-        </footer>
         <!-- ======= End Footer Section ======= -->
 
     </main>
@@ -188,9 +145,7 @@
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
 
     <!-- Footer icons-->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -201,6 +156,19 @@
 
     <!-- Cookie Button JS File -->
     <script src="assets/js/cookie_button.js"></script>
+
+    <!-- Footer JS File -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script>
+        $(function () {
+            $("#includeHtml").load("footer.html");
+        });
+    </script>
+    <script>
+        $(function () {
+            $("#includeHtml1").load("header.html");
+        });
+    </script>
 
 
 </body>
