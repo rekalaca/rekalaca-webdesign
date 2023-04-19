@@ -598,6 +598,8 @@ section {
 #services h2 {
   font-family: 'Montserrat', sans-serif;
   color: #e6c068;
+  font-size: 28px;
+  text-align: center;
 }
 
 #services p {
@@ -921,6 +923,7 @@ h3 {
 
 #pricing h2 {
   font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
 }
 
 .szolgszoveg {

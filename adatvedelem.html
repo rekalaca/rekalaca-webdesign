@@ -53,16 +53,41 @@
 </head>
 
 <body>
-    <!-- ====== Cookie Section ======-->
 
+    <!-- Footer & Header JS File -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script>
+        $(function () {
+            $("#includeHtml").load("footer.html");
+        });
+    </script>
+    <script>
+        $(function () {
+            $("#includeHtml1").load("header.html");
+        });
+    </script>
+
+    <!-- ====== Cookie Section ======-->
     <!-- Cookie Consent by FreePrivacyPolicy.com https://www.FreePrivacyPolicy.com -->
     <script type="text/javascript" src="//www.freeprivacypolicy.com/public/cookie-consent/4.1.0/cookie-consent.js"
         charset="UTF-8"></script>
     <script type="text/javascript" charset="UTF-8">
         document.addEventListener('DOMContentLoaded', function () {
-            cookieconsent.run({ "notice_banner_type": "interstitial", "consent_type": "express", "palette": "light", "language": "hu", "page_load_consent_levels": ["strictly-necessary"], "notice_banner_reject_button_hide": false, "preferences_center_close_button_hide": false, "page_refresh_confirmation_buttons": false, "website_name": "rekalaca webdesign műhely", "website_privacy_policy_url": "https://rekalaca.github.io/bemutatkozo/adatvedelem" });
+            cookieconsent.run({ "notice_banner_type": "simple", "consent_type": "express", "palette": "dark", "language": "hu", "page_load_consent_levels": ["strictly-necessary"], "notice_banner_reject_button_hide": false, "preferences_center_close_button_hide": false, "page_refresh_confirmation_buttons": false, "website_name": "https://rekalaca-webdesign.hu/", "website_privacy_policy_url": "https://rekalaca-webdesign.hu/adatvedelem.html/" });
         });
     </script>
+
+    <!-- Google Analytics -->
+    <script type="text/plain" data-cookie-consent="tracking" async
+        src="https://www.googletagmanager.com/gtag/js?id=G-M7LLHDWC97"></script>
+    <script type="text/plain" data-cookie-consent="tracking">
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-M7LLHDWC97');
+</script>
+    <!-- end of Google Analytics-->
 
     <noscript>Cookie Consent by <a href="https://www.freeprivacypolicy.com/">Free Privacy Policy
             Generator</a></noscript>
@@ -70,6 +95,7 @@
 
 
     <!-- Below is the link that users can use to open Preferences Center to change their preferences. Do not modify the ID parameter. Place it where appropriate, style it as needed. -->
+
     <div class="floating-tab"><a href="#" id="open_preferences_center"><button class="button">Cookie
                 beállítások</button></a>
     </div>
@@ -136,7 +162,7 @@
                         Adószám: 41893014-1-35<br>
                         Nyilvántartási szám: 58132397<br>
                         E-mail: <a
-                            href="mailto:adatkezeles@rekalaca-webdesign.hu">adatkezeles@rekalaca-webdesign.hu</a><br>
+                            href="mailto:adatvedelem@rekalaca-webdesign.hu">adatvedelem@rekalaca-webdesign.hu</a><br>
                         Telefon: <a href="tel:+36304442569">+36 30 444-25-69</a><br><br>
                         <u>Tárhely szolgáltató:</u><br>
                         RACKFOREST ZRT.<br>
@@ -305,7 +331,7 @@
                         keresztül küldött adatok esetében alapvetően 2 év.
                         Amennyiben a felhasználó korábbi időpontban szeretné adatait töröltetni, azt bármikor megteheti
                         az
-                        <a href="mailto:adatkezeles@rekalaca-webdesign.hu">adatkezeles@rekalaca-webdesign.hu</a> mail
+                        <a href="mailto:adatvedelem@rekalaca-webdesign.hu">adatvedelem@rekalaca-webdesign.hu</a> mail
                         címre
                         küldött kérés útján.<br>
                         Bármilyen munkaszerződés esetén az adatkezelés a Weboldal és vállalkozás működésének a végéig
@@ -482,19 +508,6 @@
 
     <!-- Cookie Button JS File -->
     <script src="assets/js/cookie_button.js"></script>
-
-    <!-- Footer JS File -->
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script>
-        $(function () {
-            $("#includeHtml").load("footer.html");
-        });
-    </script>
-    <script>
-        $(function () {
-            $("#includeHtml1").load("header.html");
-        });
-    </script>
 
 </body>
 
