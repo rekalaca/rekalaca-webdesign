@@ -470,7 +470,9 @@ section {
 /*--------------------------------------------------------------
 # rolam 
 --------------------------------------------------------------*/
-
+.rolam{
+  margin-top: 40px;
+  }
 .rolamhatter {
   background: url("../img/hatter/px_by_Gre3g.webp");
   color: white;
