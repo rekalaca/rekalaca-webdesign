@@ -37,7 +37,12 @@ a:active {
 }
 
 h1 {
-  font-family: "Alex Brush", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 
@@ -396,13 +401,6 @@ a .back-to-top:hover {
 }
 
 
-
-#hero h1 {
-  font-size: 48px;
-  font-weight: 500;
-  line-height: 56px;
-  color: #fff;
-}
 
 #hero h2 {
   color: #aeaeae;
