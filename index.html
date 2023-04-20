@@ -8,7 +8,6 @@
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'G-M7LLHDWC97');
   </script>
 
@@ -27,8 +26,6 @@
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!--FONT AWESOME-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,24 +46,19 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  
+
 </head>
 
 <body>
-
-
-
-  <noscript>Cookie Consent by <a href="https://www.freeprivacypolicy.com/">Free Privacy Policy Generator</a></noscript>
-  <!-- End Cookie Consent by FreePrivacyPolicy.com https://www.FreePrivacyPolicy.com -->
-
-
-  <!-- Below is the link that users can use to open Preferences Center to change their preferences. Do not modify the ID parameter. Place it where appropriate, style it as needed. -->
-
-  <div class="floating-tab"><a href="#" id="open_preferences_center"><button class="button">Cookie
-        beállítások</button></a>
-  </div>
-
-  <!-- End Cookie -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
@@ -361,14 +353,15 @@
           <h2>Kérdések és válaszok</h2>
         </div>
 
-        <ul class="faq-list">
-
-          <li data-aos="fade-up">
-            <a data-bs-toggle="collapse" class="collapsed noalahuz" data-bs-target="#faq1">Miért van szükség saját
-              weboldalra?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Lehet hirdetni erre szakosodott oldalakon, lehet akár a Facebookon is, de hosszú távon ezek mellett, egy
+        <div class="accordion-menu">
+          <ul>
+            <li>
+              <input type="checkbox" checked>
+              <i class="arrow"></i>
+              <h5>Miért van szükség saját
+                weboldalra?</h5>
+              <p>Lehet hirdetni erre szakosodott oldalakon, lehet akár a Facebookon is, de hosszú távon ezek mellett,
+                egy
                 saját honlap a legegyszerűbb és leghatékonyabb választás. Ha például egy kiadó szállást veszünk
                 példának, akkor a bérlők nagy része alapvetően szállásközvetítő oldalakon, vagy közösségi oldalakon,
                 ezzel kapcsolatos csoportokban keresgélnek. Viszont ha rátalálnak egy nekik tetszőre, akkor szinte
@@ -376,80 +369,69 @@
                 hogy közvetlenül a szállást kiadóval tudják felvenni a kapcsolatot esetleg kedvezőbb ár miatt. Ez ugye a
                 másik félnek sem rossz, ha megspórol egy kis közvetítői díjat, vagy reklámköltséget…
               </p>
-            </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="100">
-            <a data-bs-toggle="collapse" data-bs-target="#faq2" class="collapsed noalahuz">Fontos a domain név és a
-              tárhely minősége?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Mindenképpen! Egy jó domain név kiválasztás több dolog miatt is fontos! Legyen egyszerű, de
+            </li>
+            <li>
+              <input type="checkbox" checked>
+              <i class="arrow"></i>
+              <h5>Fontos a domain név és a
+                tárhely minősége?</h5>
+              <p>Mindenképpen! Egy jó domain név kiválasztás több dolog miatt is fontos! Legyen egyszerű, de
                 lényegretörő, könnyen megjegyezhető. A webtárhely kiválasztásánál se csak az árat nézzük! Fontos a
                 megfelelő háttértár, nem mindegy az sem, hogy az oldalunk milyen gyorsan töltődik be. Nem utolsó sorban
                 ezek a dolgok a keresők, mint például a Google, találati eredményeire is hatással vannak!
               </p>
-            </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="200">
-            <a data-bs-toggle="collapse" data-bs-target="#faq3" class="collapsed noalahuz">Ki töltse fel az elkészült
-              honlapot?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                A megrendelő választ az oldalának egy megfelelő domain nevet, tárhelyet, ahova a weboldalt feltölti,
+            </li>
+            <li>
+              <input type="checkbox" checked>
+              <i class="arrow"></i>
+              <h5>Ki töltse fel az elkészült
+                honlapot?</h5>
+              <p>A megrendelő választ az oldalának egy megfelelő domain nevet, tárhelyet, ahova a weboldalt feltölti,
                 vagy igény szerint természetesen én is elvégzem ezt a műveletet. Ezek után az oldala már elérhető az
                 interneten!
               </p>
-            </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="300">
-            <a data-bs-toggle="collapse" data-bs-target="#faq4" class="collapsed noalahuz">Mikor válik elérhetővé az
-              elkészült weboldal?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Miután a megrendelő az elkészített weblapot egy nem publikus felületen kipróbálta és tesztelte, az oldal
+            </li>
+            <li>
+              <input type="checkbox" checked>
+              <i class="arrow"></i>
+              <h5>Mikor válik elérhetővé az
+                elkészült weboldal?</h5>
+              <p>Miután a megrendelő az elkészített weblapot egy nem publikus felületen kipróbálta és tesztelte, az
+                oldal
                 feltölthetővé válik a kiválasztott tárhelyre. Ezek után már bárki számára elérhető az interneten.
               </p>
-            </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="400">
-            <a data-bs-toggle="collapse" data-bs-target="#faq5" class="collapsed noalahuz">Ki végzi az üzemeltetést, a
-              tartalom frissítését?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Akár a honlap megrendelője is lehet az üzemeltető, főleg ha strukturális változtatással nem jár a
+            </li>
+            <li>
+              <input type="checkbox" checked>
+              <i class="arrow"></i>
+              <h5>Ki végzi az üzemeltetést, a
+                tartalom frissítését?</h5>
+              <p>Akár a honlap megrendelője is lehet az üzemeltető, főleg ha strukturális változtatással nem jár a
                 frissítés, csak a tartalmi elemeket kell átírni, vagy fényképet cserélni. Igény esetén viszont
                 karbantartási - üzemeltetési szerződés keretében természetesen vállalom a honlap tartalmi elemeinek,
                 vagy akár kinézetének a módosítását is.
               </p>
-            </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="500">
-            <a data-bs-toggle="collapse" data-bs-target="#faq6" class="collapsed noalahuz">Mi az a SEO, vagyis a
-              keresőoptimalizálás?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                A keresőoptimalizálás (angolul search engine optimization, azaz SEO) a weblap keresőmotorokban való
+            </li>
+            <li>
+              <input type="checkbox" checked>
+              <i class="arrow"></i>
+              <h5>Mi az a SEO, vagyis a
+                keresőoptimalizálás?</h5>
+              <p>A keresőoptimalizálás (angolul search engine optimization, azaz SEO) a weblap keresőmotorokban való
                 megjelenésének javítását jelenti "organikus" avagy nem fizetett keresési eredményekben. Általánosságban
                 minél előbb, azaz jobban rangsorolva a találati oldalon és többször jelenik meg egy oldal a találati
                 listában, annál több látogatást szerez a kereső használóitól.<a
                   href="https://hu.wikipedia.org/wiki/Keres%C5%91optimaliz%C3%A1l%C3%A1s"
                   target="_blank">(forrás:Wikipédia)</a>
               </p>
-            </div>
-          </li>
-
-        </ul>
-
+            </li>
+          </ul>
+        </div>
       </div>
     </section><!-- End Kérdések és válaszok Section -->
 
     <!-- ======= Kapcsolat Section ======= -->
-    <section id="contact" class="contact section-bg">
+    <section id="contact" class="contact section-bg adatved">
       <div class="container">
 
         <div class="section-title">
@@ -483,7 +465,6 @@
                 </div>
                 <div class="col-md-6 d-flex align-items-stretch">
                   <div class="info-wrap w-100 p-md-5 p-4 py-5 img">
-                    <h3><u>Kapcsolatfelvételi lehetőségek:</u></h3>
                     <div class="dbox w-100 d-flex align-items-start stil">
                       <div class="text pl-3">
                         <span class="fa fa-map-marker fa-2x" style="color: #e6c068; margin-right: 10px;"></span>
@@ -558,8 +539,6 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-  <!-- Cookie Button JS File -->
-  <script src="assets/js/cookie_button.js"></script>
 
   <!-- Footer & Header JS File -->
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
@@ -582,6 +561,17 @@
       cookieconsent.run({ "notice_banner_type": "simple", "consent_type": "express", "palette": "dark", "language": "hu", "page_load_consent_levels": ["strictly-necessary"], "notice_banner_reject_button_hide": false, "preferences_center_close_button_hide": false, "page_refresh_confirmation_buttons": false, "website_name": "https://rekalaca-webdesign.hu/", "website_privacy_policy_url": "https://rekalaca-webdesign.hu/adatvedelem.html/" });
     });
   </script>
+  <noscript>Cookie Consent by <a href="https://www.freeprivacypolicy.com/">Free Privacy Policy Generator</a></noscript>
+  <!-- End Cookie Consent by FreePrivacyPolicy.com https://www.FreePrivacyPolicy.com -->
+
+
+  <!-- Below is the link that users can use to open Preferences Center to change their preferences. Do not modify the ID parameter. Place it where appropriate, style it as needed. -->
+
+  <div class="floating-tab"><a href="#" id="open_preferences_center"><button class="button">Cookie
+        beállítások</button></a>
+  </div>
+
+  <!-- End Cookie -->
 
   <!-- Google Analytics -->
   <script type="text/plain" data-cookie-consent="tracking" async
@@ -594,6 +584,9 @@
   gtag('config', 'G-M7LLHDWC97');
 </script>
   <!-- end of Google Analytics-->
+  <!-- Cookie Button JS File -->
+
+  <script src="assets/js/cookie_button.js"></script>
 
 
 
