@@ -38,7 +38,7 @@ a:active {
 
 h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 800;
   color: #fff;
   letter-spacing: 2px;
@@ -400,16 +400,6 @@ a .back-to-top:hover {
   text-align: center;
 }
 
-
-
-#hero h2 {
-  color: #aeaeae;
-  margin-bottom: 5px;
-  font-size: 14px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
 #hero .btn-get-started {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
@@ -438,12 +428,8 @@ a .back-to-top:hover {
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
+    font-size: 16px;
     line-height: 36px;
-  }
-
-  #hero h2 {
-    line-height: 22px;
   }
 
   #hero img {
@@ -1094,6 +1080,7 @@ h3 {
 
 #faq h5{
   font-size: 16px;
+  margin-right: 8px;
 }
 
 #faq a {
@@ -1247,11 +1234,12 @@ h4 {
 #contact p, a {
   color:#fff;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
 
 .stil {
   font-family: 'Montserrat', sans-serif;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .contact .info {
@@ -1318,6 +1306,7 @@ form {
   max-width: 500px;
   margin: 0 auto;
   text-align: left;
+  font-weight: 600;
 }
 
 
@@ -1376,6 +1365,19 @@ a {
 
 a:hover {
   color: #fff;
+}
+
+@media (max-width: 768px) {
+  #contact p {
+    font-size: 14px;
+    line-height: 36px;
+    font-weight: 600;
+  }
+  .datas{
+    padding: 0px;
+    margin: 0px;
+  }
+
 }
 /*--------------------------------------------------------------
 # Footer
