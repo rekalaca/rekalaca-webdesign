@@ -17,29 +17,24 @@ echo'
 <html lang="hu">
 
 <head>
+
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>rekalaca webdesign | reszponzív, mobilbarát weboldalak készítése!</title>
-  <meta name="description" content="Reszponzív, mobilbarát Weboldalak tervezése és kivitelezése kedvező áron!">
+  <meta name="description"
+    content="Reszponzív, mobilbarát Weboldalak tervezése és kivitelezése kedvező áron!/Nyíregyháza">
   <meta name="robots" content="index, folow">
   <link rel="canonical" href="https://www.rekalaca-webdesign.hu/">
-  <meta content="" name="keywords">
+  <meta name="keywords"
+    content="reszponzív, weboldalkészítés, webdesign, weblapkészítés, honlapkészítés, weblap karbantartás, Nyíregyháza,rekalaca webdesign">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!--FONT AWESOME-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
@@ -50,10 +45,19 @@ echo'
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+  <script>
+    $(function () {
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+    });
+  </script>
 
 </head>
 
@@ -78,68 +82,34 @@ echo'
   <main id="main">
 
 
-    <!-- ======= Footer Section ======= -->
-    <footer>
-      <div class="footer adatved">
+  <!-- ======= Footer Section ======= -->
+  <div id="footer"></div>
+  <!-- ======= End Footer Section ======= -->
 
-        <table data-aos="fade-up" data-aos-delay="100">
-          <tr>
-            <td><a href="https://www.facebook.com/profile.php?id=100091614870499" target="_blank"><i
-                  class="bi bi-facebook"></i></a></td>
-            <td><a href="https://m.me/108388625549521" target="_blank"><i class="bi bi-messenger"></i></a>
-            </td>
-            <td><a href="https://wa.me/36304442569" target="_blank"><i class="bi bi-whatsapp" t></i></a>
-            </td>
-          </tr>
-        </table>
-
-        <div class="row">
-          <ul>
-            <li><a href="#" id="open_preferences_center">Cookie beállítások</a></li>
-            <li><a href="https://rekalaca.github.io/rekalaca-webdesign/impresszum">Impresszum</a></li>
-            <li><a href="https://rekalaca.github.io/rekalaca-webdesign/adatvedelem" target="_blank">Adatkezelési
-                tájékoztató</a>
-            </li>
-          </ul>
-        </div>
-        <div class="kozep footszoveg">
-          Copyright © 2023 rekalaca-webdesign - All rights reserved || Designed By: rekalaca
-        </div>
-      </div>
-    </footer>
-    <!-- ======= End Footer Section ======= -->
-
-
-  </main><!-- End #main -->
+</main><!-- End #main -->
 
 
 
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center upbutton"><i
-      class="bi bi-arrow-up-short"></i></a>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center upbutton"><i
+    class="bi bi-arrow-up-short"></i></a>
 
 
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<!-- Vendor JS Files -->
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <!-- Footer icons-->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+
 
 
 </body>
 
 </html>
-
 
 
 ';
