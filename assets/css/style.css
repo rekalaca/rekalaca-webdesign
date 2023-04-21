@@ -3,6 +3,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Montserrat", sans-serif;
+  font-display: swap;
   color: #555555;
   margin: 0;
   overflow-x: hidden;
@@ -43,6 +44,7 @@ h1 {
   color: #fff;
   letter-spacing: 2px;
   text-transform: uppercase;
+  font-display: swap;
 }
 
 
@@ -577,6 +579,11 @@ section {
 --------------------------------------------------------------*/
 #services {
   background-color: #000;
+}
+
+.gif-container {
+  max-width: 100%;
+  height: auto;
 }
 
 #services h2 {
