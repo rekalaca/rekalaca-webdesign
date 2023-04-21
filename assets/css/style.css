@@ -113,7 +113,6 @@ a .back-to-top:hover {
   transition: all 0.5s;
   background: url("../img/hatter/leather_1.webp");
   box-shadow: 0 4px 10px -3px rgba(191, 191, 191, 0.5);
-  border: solid 3px #e6c068;
 }
 
 #header .logo h1 {
@@ -470,14 +469,10 @@ section {
 /*--------------------------------------------------------------
 # rolam 
 --------------------------------------------------------------*/
-.rolam{
-  margin-top: 40px;
-  }
 .rolamhatter {
   background: url("../img/hatter/px_by_Gre3g.webp");
   color: white;
   font-family: 'Montserrat', sans-serif;
-  margin-top: 20px;
 }
 
 .rolamszoveg {
@@ -491,7 +486,7 @@ section {
 #rolam h2 {
   color: #e6c068;
   font-family: 'Montserrat', sans-serif;
-  padding-top: 10px;
+  padding-top: 80px;
 }
 
 #rolam h3 {
