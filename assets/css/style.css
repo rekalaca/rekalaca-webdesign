@@ -470,11 +470,14 @@ section {
 /*--------------------------------------------------------------
 # rolam 
 --------------------------------------------------------------*/
-
+.rolam{
+  margin-top: 40px;
+  }
 .rolamhatter {
   background: url("../img/hatter/px_by_Gre3g.webp");
   color: white;
   font-family: 'Montserrat', sans-serif;
+  margin-top: 20px;
 }
 
 .rolamszoveg {
@@ -482,12 +485,13 @@ section {
 }
 
 .rolambekezd{
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 #rolam h2 {
   color: #e6c068;
   font-family: 'Montserrat', sans-serif;
+  padding-top: 10px;
 }
 
 #rolam h3 {
@@ -518,6 +522,7 @@ section {
 
 .rolam .content h3 {
   font-size: 26px;
+  margin-top: 20px;
 }
 
 .rolam .content ul {
