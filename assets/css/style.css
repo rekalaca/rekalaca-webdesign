@@ -39,7 +39,7 @@ a:active {
 
 h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 800;
   color: #fff;
   letter-spacing: 2px;
@@ -401,6 +401,10 @@ a .back-to-top:hover {
   text-align: center;
 }
 
+#hero h1{
+  margin-top: 0px;
+}
+
 #hero .btn-get-started {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
@@ -408,7 +412,7 @@ a .back-to-top:hover {
   font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 14px 20px;
+  padding: 8px 20px;
   border-radius: 3px;
   margin: 15px;
   color: #000;
@@ -488,7 +492,6 @@ section {
 #rolam h2 {
   color: #e6c068;
   font-family: 'Montserrat', sans-serif;
-  padding-top: 80px;
 }
 
 #rolam h3 {
@@ -680,8 +683,11 @@ h3 {
 }
 
 #portfolio p {
-  color: #e6c068;
+  color: #fff;
   font-weight: 600;
+}
+#portfolio img{
+  opacity: 0.6;
 }
 
 .portfolio .portfolio-item {
@@ -840,6 +846,7 @@ h3 {
   right: 15px;
 }
 
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -916,6 +923,10 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 28px;
 }
+.bev{
+  font-weight: 700;
+  text-transform: uppercase;
+}
 
 .szolgszoveg {
   max-width: 600px;
@@ -924,7 +935,7 @@ h3 {
 }
 
 #pricing p {
-  color: rgb(41, 37, 53);
+  color: rgb(38, 32, 32);
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
 }
@@ -944,9 +955,9 @@ h3 {
   padding: 15px;
   margin-top: 15px;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 700;
   color: black;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: #e6c068;
   border-radius: 30px;
 }
@@ -955,7 +966,7 @@ h3 {
   font-size: 42px;
   color: #151515;
   font-weight: 700;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin-bottom: 20px;
 }
 
