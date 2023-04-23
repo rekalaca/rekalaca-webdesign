@@ -448,6 +448,7 @@ a .back-to-top:hover {
 section {
   padding: 60px 0;
   overflow: hidden;
+  width: 100%;
 }
 
 .section-bg {
