@@ -56,6 +56,8 @@ h6{
   font-family: "Montserrat", sans-serif;
 }
 
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -386,7 +388,10 @@ a .back-to-top:hover {
   height: 100vh;
   background: url("../img/hatter/hero-bg.png");
   position: relative;
+  padding: 0;
+  margin: 0;
 }
+
 
 
 #hero .hero-container {
@@ -440,6 +445,7 @@ a .back-to-top:hover {
   #hero img {
     max-width: 350px;
   }
+
 }
 
 /*--------------------------------------------------------------
@@ -1218,7 +1224,7 @@ h3 {
 }
 
 @media screen and (max-width: 1000px) {
-  body {
+  #faq body {
     padding: 1em;
   }
   
