@@ -390,8 +390,6 @@ a .back-to-top:hover {
   position: relative;
 }
 
-
-
 #hero .hero-container {
   position: absolute;
   top: 0;
@@ -1159,8 +1157,8 @@ h3 {
   background: #e6c068;
   color: #000;
   cursor: pointer;
-  font-size: .7em;
-  font-weight: 600;
+  font-size: .8em;
+  font-weight: 700;
   letter-spacing: .1em;
   transition: all .3s;
   text-transform: uppercase;
@@ -1190,8 +1188,9 @@ h3 {
 
 .accordion-body__contents {
   padding: 1.5em 1.5em;
-  font-size: .85em;
-  font-weight: 600;
+  font-size: .95em;
+  font-weight: bold;
+  color: #000;
 }
 
 .accordion__item.active:last-child .accordion-header {
