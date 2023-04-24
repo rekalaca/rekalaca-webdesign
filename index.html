@@ -32,7 +32,7 @@
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  
+
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -50,6 +50,12 @@
 </head>
 
 <body>
+
+  <div class="cookies-eu-banner hidden">
+    Ez a weboldal sütiket(cookie-kat) használ azért, hogy a weboldal működjön és jobb felhasználói élményt nyújtson. Az
+    oldal további használatával beleegyezik a sütik használatába.
+    <button>Elfogadom</button>
+  </div>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
@@ -259,7 +265,8 @@
           <div class="col-lg-4 col-md-6">
             <div class="box card" data-aos="zoom-in" data-aos-delay="100">
               <h3>ONE PAGE</h3>
-              <p class="cross" style="font-size: 26px;">99.000 <sup>Ft-tól</sup><span> / weblap</span></p><p class="bev">bevezető ár:</p>
+              <p class="cross" style="font-size: 26px;">99.000 <sup>Ft-tól</sup><span> / weblap</span></p>
+              <p class="bev">bevezető ár:</p>
               <h4>70.000 <sup>Ft</sup><span> / weboldal</span></h4>
               <ul>
                 <li>Konzultáció az elképzelésekről</li>
@@ -281,7 +288,8 @@
           <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
             <div class="box card" data-aos="zoom-in">
               <h3>MULTI</h3>
-              <p class="cross" style="font-size: 26px;">190.000 <sup>Ft-tól</sup><span> / weblap</span></p><p class="bev">bevezető ár:</p>
+              <p class="cross" style="font-size: 26px;">190.000 <sup>Ft-tól</sup><span> / weblap</span></p>
+              <p class="bev">bevezető ár:</p>
               <h4>150.000 <sup>Ft-tól</sup><span> / weblap</span></h4>
               <ul>
                 <li>Konzultáció az elképzelésekről</li>
@@ -303,7 +311,8 @@
           <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
             <div class="box card" data-aos="zoom-in" data-aos-delay="100">
               <h3>COMPLEX</h3>
-              <p class="cross" style="font-size: 26px;">310.000 <sup>Ft-tól</sup><span> / weblap</span></p><p class="bev">bevezető ár:</p>
+              <p class="cross" style="font-size: 26px;">310.000 <sup>Ft-tól</sup><span> / weblap</span></p>
+              <p class="bev">bevezető ár:</p>
               <h4>220.000 <sup>Ft-tól</sup><span> / weblap</span></h4>
               <ul>
                 <li>Konzultáció az elképzelésekről</li>
@@ -503,9 +512,6 @@
 
   </main><!-- End #main -->
 
-
-
-
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center upbutton"><i
       class="bi bi-arrow-up-short"></i></a>
 
@@ -519,26 +525,8 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
 
-  <!-- ====== Cookie Section ======-->
-  <!-- Cookie Consent by FreePrivacyPolicy.com https://www.FreePrivacyPolicy.com -->
-  <script type="text/javascript" src="//www.freeprivacypolicy.com/public/cookie-consent/4.1.0/cookie-consent.js"
-    charset="UTF-8"></script>
-  <script type="text/javascript" charset="UTF-8">
-    document.addEventListener('DOMContentLoaded', function () {
-      cookieconsent.run({ "notice_banner_type": "simple", "consent_type": "express", "palette": "dark", "language": "hu", "page_load_consent_levels": ["strictly-necessary"], "notice_banner_reject_button_hide": false, "preferences_center_close_button_hide": false, "page_refresh_confirmation_buttons": false, "website_name": "https://rekalaca-webdesign.hu/", "website_privacy_policy_url": "https://rekalaca-webdesign.hu/adatvedelem.html/" });
-    });
-  </script>
-  <noscript>Cookie Consent by <a href="https://www.freeprivacypolicy.com/">Free Privacy Policy Generator</a></noscript>
-  <!-- End Cookie Consent by FreePrivacyPolicy.com https://www.FreePrivacyPolicy.com -->
-
-
-  <!-- Below is the link that users can use to open Preferences Center to change their preferences. Do not modify the ID parameter. Place it where appropriate, style it as needed. -->
-
-  <div class="floating-tab"><a href="#" id="open_preferences_center"><button class="button">Cookie
-        beállítások</button></a>
-  </div>
-
-  <!-- End Cookie -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/cookie.js"></script>
 
   <!-- Google Analytics -->
   <script type="text/plain" data-cookie-consent="tracking" async
@@ -551,7 +539,6 @@
   gtag('config', 'G-M7LLHDWC97');
 </script>
   <!-- end of Google Analytics-->
-
 
 </body>
 
