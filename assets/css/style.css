@@ -56,8 +56,6 @@ h6{
   font-family: "Montserrat", sans-serif;
 }
 
-
-
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -107,8 +105,6 @@ a .back-to-top:hover {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
-
-
 
 #header {
   height: 90px;
@@ -379,7 +375,6 @@ a .back-to-top:hover {
   display: block;
 }
 
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -446,7 +441,6 @@ a .back-to-top:hover {
   #hero img {
     max-width: 80%;
   }
-
 }
 
 /*--------------------------------------------------------------
@@ -552,8 +546,6 @@ section {
 .rolam .content p:last-child {
   margin-bottom: 0;
 }
-
-
 
 .cross {
   position: relative;
@@ -1278,8 +1270,6 @@ h4 {
   margin-top: 10px;
 }
 
-
-
 #contact h4 {
   font-size: 18px;
   font-weight: 600;
@@ -1473,8 +1463,6 @@ td {
   left: 20px;
   z-index: 9999;
 }
-
-
 
 .button {
   display: inline-block;
@@ -1893,4 +1881,44 @@ td {
 
 .hidden {
   display: none;
+}
+
+#thanks {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/hatter/hero-bg.png");
+  position: relative;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+.thanks-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#thanks .btn-get-started {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 3px;
+  margin: 15px;
+  color: #000;
+  background: #e6c068;
+}
+
+#thanks .btn-get-started:hover {
+  transition: 0.5s;
+  background: #fff;
+  color: #e6c068;
 }
